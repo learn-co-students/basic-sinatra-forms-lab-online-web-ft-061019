@@ -1,6 +1,8 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
+gem 'bundler', '~> 2.0', '>= 2.0.2'
+
 # gem "rails"
 
 gem 'sinatra'
@@ -9,6 +11,7 @@ gem 'rake'
 gem 'thin'
 gem 'shotgun'
 gem 'pry'
+gem 'solargraph'
 gem 'require_all'
 
 group :test do
